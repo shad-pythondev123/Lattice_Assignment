@@ -115,7 +115,7 @@ public class DoctorService {
         }
 
 
-        return new ResponseEntity<>("Patient with id = " + patientId + " not present", HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>("Patient with id " + patientId + " not present", HttpStatus.NOT_FOUND);
 }
 }
 
